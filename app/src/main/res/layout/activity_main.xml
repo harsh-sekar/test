@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mind"
+        android:layout_width="72dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/mind_stone"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <ImageView
+        android:id="@+id/power"
+        android:layout_width="73dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/power_stone"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/reality"
+        android:layout_width="74dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/reality_stone"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/soul_stone"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="688dp" />
+
+    <ImageView
+        android:id="@+id/soul"
+        android:layout_width="74dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/time_stone"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</android.support.constraint.ConstraintLayout>
